@@ -14,7 +14,7 @@ terragrunt = {
 
 aws_region = "ap-southeast-2"
 name = "test-jenkins"
-bastian_instance = {
+bastion_instance = {
     ami              = "ami-0975ce566eec139c3"
     instance         = "t2.micro"
     root_volume_size = "80"

@@ -41,8 +41,8 @@ variable "asset_path" {
   default = "/tmp"
 }
 
-variable "bastian_instance" {
-  description = "The configuration variables used in creating the bastian instance"
+variable "bastion_instance" {
+  description = "The configuration variables used in creating the bastion instance"
   type = "map"
 }
 

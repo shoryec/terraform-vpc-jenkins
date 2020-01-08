@@ -1,4 +1,4 @@
-resource "aws_security_group" "bastian_priviledged_access_sg" {
+resource "aws_security_group" "bastion_priviledged_access_sg" {
   name        = "priviledged_access"
   description = "Security Group to enable priviledged access"
   vpc_id     = "${aws_vpc.vpc.id}"
